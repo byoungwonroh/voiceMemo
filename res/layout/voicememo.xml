@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    
+    <LinearLayout
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+		<Button
+			android:id="@+id/memoListBtn" 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="메모">
+		</Button>
+		<Button
+			android:id="@+id/voiceMemo"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="음성메모">
+		</Button>
+		<Button
+			android:id="@+id/saveMemo"
+			android:background="@drawable/btn_add"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			>
+		</Button>
+	</LinearLayout>
+	
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<EditText
+			android:id="@+id/memoEdt"
+			android:layout_width="fill_parent"
+			android:layout_height="400dip"
+			android:paddingLeft="45dip"
+			android:paddingTop="19dip"
+			android:gravity="left"
+			android:textSize="20dip"
+			android:background="@drawable/note1">
+		</EditText>
+	</LinearLayout>
+</LinearLayout>
